@@ -26,13 +26,13 @@ document.querySelector('#mute').addEventListener("click", function() {
 })
 
 document.querySelector('#slower').addEventListener("click", function() {
-	console.log("New Speed is " + video.playbackRate);
 	video.playbackRate *= .9;
+	console.log("New Speed is " + video.playbackRate);
 })
 
 document.querySelector('#faster').addEventListener("click", function() {
-	console.log("New Speed is " + video.playbackRate);
 	video.playbackRate /= .9;
+	console.log("New Speed is " + video.playbackRate);
 })
 
 document.querySelector('#skip').addEventListener("click", function() {
